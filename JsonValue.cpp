@@ -2,7 +2,7 @@
 #include <sstream>
 #include <cctype>
 
-// Пропуск пробелов
+// Пропуск пробелов (новый комментарий)
 void JsonParser::skipWhitespace(const std::string& input, size_t& pos) {
     while (pos < input.length() && std::isspace(input[pos])) {
         pos++;
